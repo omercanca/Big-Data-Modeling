@@ -1,0 +1,1 @@
+python3 question1.py -r hadoop --hadoop-streaming-jar /home2/hadoop-3.3.2/share/hadoop/tools/lib/hadoop-streaming-3.3.2.jar --jobconf mapred.reduce.tasks=4 hdfs:///datasets/facebook  --output-dir nodes3  --no-output
